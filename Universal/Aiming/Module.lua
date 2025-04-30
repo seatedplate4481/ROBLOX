@@ -50,14 +50,14 @@ local Aiming = {
     VisibleCheck = true,
     ShowCredits = true,
 
-    HitChance = 100,
+    HitChance = 87,
 
     Selected = nil,
     SelectedPart = nil,
     SelectedPosition = nil,
     SelectedPositionOnScreen = nil,
 
-    TargetPart = {"Head", "HumanoidRootPart"},
+    TargetPart = {"Head", "HumanoidRootPart", "LeftArm", "RightArm",}
 
     Ignored = {
         Teams = {
